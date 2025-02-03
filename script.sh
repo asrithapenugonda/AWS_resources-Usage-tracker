@@ -19,3 +19,5 @@ aws lambda list-functions | jq '.Functions[]'      >>resouceTracker
 #listing iam users
 echo -e "\e[32m list of iam users\e[0m"    >>resouceTracker
 aws iam list-users | jq '.Users[].UserName'    >>resouceTracker
+
+echo -e "\e[31m For output file open resourceTracker\e[0m"
