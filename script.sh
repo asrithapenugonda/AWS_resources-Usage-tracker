@@ -16,4 +16,4 @@ aws lambda list-functions
 
 #listing iam users
 echo -e "\e[32m list of iam users\e[0m"
-aws iam list_users
+aws iam list-users
