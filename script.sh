@@ -8,7 +8,7 @@ aws s3 ls
 
 ##listing ec2
 echo -e "\e[32m  list of ec2 instances\e[0m"
-aws ec2 describe-instances | jq '.Reservations[].Instances[].INstanceId'
+aws ec2 describe-instances | jq '.Reservations[].Instances[].InstanceId'
 
 #listing aws lamba functions
 echo -e "\e[32m list of lambda functions\e[0m"
