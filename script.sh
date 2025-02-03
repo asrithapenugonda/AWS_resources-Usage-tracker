@@ -1,6 +1,6 @@
 #!/bin/bash
 ###### Aws resorces S3,EC2,LAMDA AS IAM Users are tracked and reported
-
+#### and redirecting to a file
 
 ##Listing S3 buckets
 echo -e "\e[32m  list of s3\e[0m"
