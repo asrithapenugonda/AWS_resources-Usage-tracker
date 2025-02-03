@@ -12,7 +12,7 @@ aws ec2 describe-instances
 
 #listing aws lamba functions
 echo -e "\e[32m list of lambda functions\e[0m"
-aws lamda list-functions
+aws lambda list-functions
 
 #listing iam users
 echo -e "\e[32m list of iam users\e[0m"
